@@ -1,0 +1,13 @@
+@import 'https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap';
+
+
+$display-font-sizes: (
+  1: 5rem,
+);
+
+body {
+  --bs-body-font-family: "Cabin";
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
