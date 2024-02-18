@@ -9,5 +9,10 @@ body {
   --bs-body-font-family: "Cabin";
 }
 
-@import "../node_modules/bootstrap/scss/bootstrap";
+.dropdown-menu {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+@import "node_modules/bootstrap/scss/bootstrap";
 
