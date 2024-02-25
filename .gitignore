@@ -41,3 +41,18 @@ Thumbs.db
 /dist-sass/
 /js/coverage/
 /node_modules/
+
+# flask
+.idea/
+.vscode/
+__pycache__/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+docs/_build/
+dist/
+venv/
+
+# self
+apikey.txt
